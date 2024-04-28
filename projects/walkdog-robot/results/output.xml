@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-07T18:08:05.965243" rpa="false" schemaversion="5">
+<suite id="s1" name="Walkdog-Robot" source="C:\Dani\QAx\projects\walkdog-robot">
+<suite id="s1-s1" name="Home" source="C:\Dani\QAx\projects\walkdog-robot\home.robot">
+<test id="s1-s1-t1" name="Home page deve estar online" line="9">
+<kw name="New Page">
+<msg time="2024-04-07T18:08:06.014807" level="FAIL">No keyword with name 'New Page' found.</msg>
+<arg>https://walkdog.vercel.app</arg>
+<status status="FAIL" start="2024-04-07T18:08:06.013780" elapsed="0.002000">No keyword with name 'New Page' found.</status>
+</kw>
+<status status="FAIL" start="2024-04-07T18:08:06.011411" elapsed="0.006358">No keyword with name 'New Page' found.</status>
+</test>
+<doc>Suite de testes da home page</doc>
+<status status="FAIL" start="2024-04-07T18:08:06.001415" elapsed="0.018349"/>
+</suite>
+<status status="FAIL" start="2024-04-07T18:08:05.976833" elapsed="0.045468"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Walkdog-Robot">Walkdog-Robot</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Home">Walkdog-Robot.Home</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-04-07T18:08:06.005947" level="ERROR">Error in file 'C:\Dani\QAx\projects\walkdog-robot\home.robot' on line 4: Importing library 'Browser' failed: ModuleNotFoundError: No module named 'Browser'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Dani\QAx\projects\walkdog-robot\lib
+  C:\Dani\QAx\projects\walkdog-robot\resources
+  c:\Users\DELL\.vscode\extensions\d-biehl.robotcode-0.78.4\bundled\libs
+  c:\Users\DELL\.vscode\extensions\d-biehl.robotcode-0.78.4\bundled\tool\robotcode
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\python312.zip
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\DLLs
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0
+  C:\Users\DELL\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\Lib\site-packages</msg>
+</errors>
+</robot>
